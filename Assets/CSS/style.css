@@ -1,10 +1,20 @@
 body {
-    background-color: aqua;
+    background-color: lightslategrey;
 }
 
+.header {
+    width: 100%;
+    border: 3px solid black;
+    }
+
+.header h1{
+    background-color: gray;
+}
+    
 .project-section{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
 }
 
 .project-card {
@@ -17,3 +27,4 @@ body {
 .project-card div {
     padding: 20px;
 }
+
