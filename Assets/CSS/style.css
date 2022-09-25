@@ -77,29 +77,42 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .project-section h2 {
     width: 15%;
     padding-right: 10px;
     border-right: 3px solid black;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 180px;
+    padding-bottom: 180px;
     display: inline-block;
     position: relative;
     justify-content: center;
     text-align: right;
 }
 
-.project-card {
+.project-card-main {
     width: 25%;
-    min-height: 100px;
+    min-height: 200px;
+    min-width: 50%;
     border: 3px solid black;
     margin: 2px;
+ 
 }
 
+.project-card-sub {
+    width: 25%;
+    min-height: 100px;
+    min-width: 25%;
+    border: 3px solid black;
+    margin: 2px;
+
+} 
+
 .project-card div {
-    padding: 20px;
+    padding: 0px;
+    
 }
 
 .contact-me {
@@ -122,8 +135,9 @@ body {
 
 .contact-me div{
     margin: auto;
-    font-size: x-large;
-    
+    font-size: large;
+    margin-right: auto;
+    max-width: 75%;
 }
 
 .contact-me a{
