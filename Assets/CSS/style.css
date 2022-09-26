@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
   margin-top: 10px;
   padding-left: 50px;
   background-color: white;
-  position:static;
+  position: static;
 }
 
 .header nav {
@@ -78,109 +78,114 @@ body {
 }
 
 .work-section {
-    display: flex;
-    flex-wrap: wrap;
-    
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.work-header{
-     width: 15%; 
-    padding-right: 10px;
-    border-right: 3px solid black;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    display: inline-block;
-    position: relative;
-    justify-content: center;
-    text-align: right;
+.work-header {
+  width: 15%;
+  padding-right: 10px;
+  border-right: 3px solid black;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+  text-align: right;
 }
 
 .work-cards {
-    padding: 0px;
+  padding: 0px;
 }
 
 .large-card {
-    border: 3px solid black;
-    height: 300px;
-    width: 382px;
-    position: relative;
+  border: 3px solid black;
+  height: 300px;
+  width: 382px;
+  position: relative;
+  background-image: url(/Assets/Images/digital-marketing-meeting.jpg);
+  background-size: 100%;
+
 }
 
 .large-card-flex {
-    /* display: flex; */
-    padding: 20px;
+  /* display: flex; */
+  padding: 20px;
 }
 
 .small-card-1 {
-    border: 3px solid black;
-    height: 150px;
-    width: 180px;
-    margin-left: 10px;
-    background-image: url(../Images/merde.jpg);
-    background-position: 20% ;
-    background-size: 100%;
+  border: 3px solid black;
+  height: 150px;
+  width: 180px;
+  margin-left: 10px;
+  background-image: url(../Images/merde.jpg);
+  background-position: 20%;
+  background-size: 100%;
 }
 
 .small-card-2 {
-    border: 3px solid black;
-    height: 150px;
-    width: 180px;
-    margin-left: 10px;
+  border: 3px solid black;
+  height: 150px;
+  width: 180px;
+  margin-left: 10px;
+  background-image: url(/Assets/Images/remix-WWWB-01.png);
+  background-position: 20%;
+  background-size: 100%;
+
 }
 
 .small-card-flex {
-    display: flex;
-    padding: 15px;
+  display: flex;
+  padding: 15px;
 }
 
 /* .project-section { */
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* flex-wrap: wrap; */
+/* display: flex; */
+/* justify-content: space-between; */
+/* align-items: center; */
+/* flex-wrap: wrap; */
 /* } */
 /* .project-section h2 { */
-  /* width: 15%; */
-  /* padding-right: 10px; */
-  /* border-right: 3px solid black; */
-  /* padding-top: 200px; */
-  /* padding-bottom: 200px; */
-  /* display: inline-block; */
-  /* position: relative; */
-  /* justify-content: center; */
-  /* text-align: right; */
+/* width: 15%; */
+/* padding-right: 10px; */
+/* border-right: 3px solid black; */
+/* padding-top: 200px; */
+/* padding-bottom: 200px; */
+/* display: inline-block; */
+/* position: relative; */
+/* justify-content: center; */
+/* text-align: right; */
 /* } */
 
 /* .large-box { */
-    /* display: inline-flex; */
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* float: right;  */
+/* display: inline-flex; */
+/* flex-direction: row; */
+/* justify-content: center; */
+/* align-items: center; */
+/* float: right;  */
 /* } */
 /* .project-card { */
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* float:inline-start; */
+/* display: flex; */
+/* flex-direction: row; */
+/* justify-content: center; */
+/* align-items: center; */
+/* float:inline-start; */
 /* } */
 /* .project-card-main { */
-    /* border: 3px solid black; */
-    /* display: block; */
-    /* height: 200px; */
-    /* width: 400px; */
-    /* padding: 10px; */
+/* border: 3px solid black; */
+/* display: block; */
+/* height: 200px; */
+/* width: 400px; */
+/* padding: 10px; */
 /* } */
 
 /* .project-card-sub { */
-    /* border: 3px solid black; */
-    /* display: block; */
-    /* height: 100px; */
-    /* width: 200px; */
-    /* padding: 10px; */
+/* border: 3px solid black; */
+/* display: block; */
+/* height: 100px; */
+/* width: 200px; */
+/* padding: 10px; */
 /* } */
-
 
 .contact-me {
   display: flex;
@@ -230,38 +235,75 @@ a:hover {
   color: white;
 }
 
-@media (max-width: 535px) {
-    .large-card-flex {
-        flex-direction: column;
-        align-items: center;
-        
-    } 
-    .small-card {
-        flex-direction: column;
-        align-items: center;
-    }
-    .work-header{
-        width: 100%; 
-        border-bottom: 3px solid black;
-        border-right: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: inline-block;
-        position: relative;
-        justify-content: center;
-        text-align: center;
+@media  (max-width: 580px) {
+  .header {
+    
+  }
+  .header nav a{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  .about-me h2{
+    width: 100%;
+    border-bottom: 3px solid black;
+    border-right: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+  }
+  .about-me{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
-    }
+  }
+  .large-card-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .small-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-header {
+    width: 100%;
+    border-bottom: 3px solid black;
+    border-right: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact-me h2{
+    width: 100%;
+    border-bottom: 3px solid black;
+    border-right: none;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-@media (min-width: 536px) {
-    .large-card-flex {
-        flex-direction: column;
-        align-items: center;
-        
-    } 
-    .small-card {
-        flex-direction: column;
-        align-items: center;
-    }
+@media (min-width: 580px) {
+  .large-card-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .small-card {
+    flex-direction: column;
+    align-items: center;
+  }
 }
