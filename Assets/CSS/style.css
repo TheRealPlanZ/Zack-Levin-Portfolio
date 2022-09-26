@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   background-color: lightslategrey;
 }
@@ -15,6 +19,7 @@ body {
   margin-top: 10px;
   padding-left: 50px;
   background-color: white;
+  position:static;
 }
 
 .header nav {
@@ -72,53 +77,109 @@ body {
   padding-right: 20px;
 }
 
-.project-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.project-section h2 {
-  width: 15%;
-  padding-right: 10px;
-  border-right: 3px solid black;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  display: inline-block;
-  position: relative;
-  justify-content: center;
-  text-align: right;
-}
-
-.large-box {
+.work-section {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    float: right; 
-}
-.project-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  float:inline-start;
-}
-.project-card-main {
-    border: 3px solid black;
-    display: block;
-    height: 300px;
-    width: 400px;
-    padding: 10px;
+    flex-wrap: wrap;
+    
 }
 
-.project-card-sub {
-    border: 3px solid black;
-    display: block;
-    height: 100px;
-    width: 200px;
-    padding: 10px;
+.work-header{
+     width: 15%; 
+    padding-right: 10px;
+    border-right: 3px solid black;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    text-align: right;
 }
+
+.work-cards {
+    padding: 0px;
+}
+
+.large-card {
+    border: 3px solid black;
+    height: 300px;
+    width: 382px;
+    position: relative;
+}
+
+.large-card-flex {
+    /* display: flex; */
+    padding: 20px;
+}
+
+.small-card-1 {
+    border: 3px solid black;
+    height: 150px;
+    width: 180px;
+    margin-left: 10px;
+    background-image: url(../Images/merde.jpg);
+    background-position: 20% ;
+    background-size: 100%;
+}
+
+.small-card-2 {
+    border: 3px solid black;
+    height: 150px;
+    width: 180px;
+    margin-left: 10px;
+}
+
+.small-card-flex {
+    display: flex;
+    padding: 15px;
+}
+
+/* .project-section { */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+/* } */
+/* .project-section h2 { */
+  /* width: 15%; */
+  /* padding-right: 10px; */
+  /* border-right: 3px solid black; */
+  /* padding-top: 200px; */
+  /* padding-bottom: 200px; */
+  /* display: inline-block; */
+  /* position: relative; */
+  /* justify-content: center; */
+  /* text-align: right; */
+/* } */
+
+/* .large-box { */
+    /* display: inline-flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* float: right;  */
+/* } */
+/* .project-card { */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* float:inline-start; */
+/* } */
+/* .project-card-main { */
+    /* border: 3px solid black; */
+    /* display: block; */
+    /* height: 200px; */
+    /* width: 400px; */
+    /* padding: 10px; */
+/* } */
+
+/* .project-card-sub { */
+    /* border: 3px solid black; */
+    /* display: block; */
+    /* height: 100px; */
+    /* width: 200px; */
+    /* padding: 10px; */
+/* } */
 
 
 .contact-me {
@@ -167,4 +228,40 @@ a:visited {
 
 a:hover {
   color: white;
+}
+
+@media (max-width: 535px) {
+    .large-card-flex {
+        flex-direction: column;
+        align-items: center;
+        
+    } 
+    .small-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-header{
+        width: 100%; 
+        border-bottom: 3px solid black;
+        border-right: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: inline-block;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+
+    }
+}
+
+@media (min-width: 536px) {
+    .large-card-flex {
+        flex-direction: column;
+        align-items: center;
+        
+    } 
+    .small-card {
+        flex-direction: column;
+        align-items: center;
+    }
 }

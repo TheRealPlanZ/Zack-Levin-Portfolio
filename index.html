@@ -1,86 +1,91 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-
-<head>
+  <head>
     <title>Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="./Assets/CSS/reset.css">
-    <link rel="stylesheet" href="./Assets/CSS/style.css">
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/CSS/reset.css" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Header w/ Nav Bar -->
-    <header class ="header">
-        <h1>Zack Levin</h1>
-        <nav>
-            <a href="#">About Me</a>
-            <a href="#">Work</a>
-            <a href="#">Contact Me</a>
-            <a href="#">Resume</a>
-        </nav>
+    <header class="header">
+      <h1>Zack Levin</h1>
+      <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact-me">Contact Me</a>
+        <a href="#">Resume</a>
+      </nav>
     </header>
     <!-- Hero Image w/ Subtitle -->
-  
-    <div class ="hero-image">
-    <section class="hero-text">
+
+    <div class="hero-image">
+      <section class="hero-text">
         <h2>DJ, PRODUCER, WEB DEVELOPER</h2>
-    </section>
-   </div>
+      </section>
+    </div>
     <main>
+      <!-- About Me Section -->
+      <section class="about-me" id="about-me">
+        <h2>About Me</h2>
+        <p>
+          The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax
+          quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
+          quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs
+          grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright
+          vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim.
+          Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV
+          quiz. How quickly daft jumping zebras vex. Two driven jocks help fax
+          my big quiz. Quick, Baz, get my woven flax
+        </p>
+      </section>
 
-        <!-- About Me Section -->
-        <section class="about-me">
-            <h2>About Me</h2>
-            <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax</p>
-        </section>
+      <!-- Work Section w/ Display Cards -->
+      <section class="work-section" id="work">
+        <aside class="work-header">
+        <h2>Work</h2>
+        </aside>
+        <div class="work-cards">
+          <div class="large-card-flex">
+            <a href="#">
+              <div class="large-card">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              </div>
+            </a>
+          </div>
 
-        <!-- Work Section w/ Display Cards -->
-        <section class="project-section">
-            <div class="">
-            <h2>Work</h2>
-            <div class="project-card">
-                <a href="#">
-                    <div class="project-card-main" >
-                        <h3>Project 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                    </div>
-                </a>
-            </div>
-           
-            <div class="large-box">
-                <a href="#">
-                    <div class="project-card-sub">
-                        <h3>Project 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                    </div>
-                </a>
-          
-           
-                <a href="#">
-                    <div class="project-card-sub">
-                        <h3>Project 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                    </div>
-                </a>
-            </div>
+          <div class="small-card-flex">
+            <a href="#">
+              <div class="small-card-1">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="small-card-2">
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              </div>
+            </a>
+          </div>
         </div>
-        </section>
+      </section>
 
-        <!-- Contact Me Section -->
-        <section class="contact-me">
-            <h2>Contact Me</h2>
-            <div>
-                <a href="#">555-555-5555</a>
-                <a href="mailto: zacklevin@gmail.com">zacklevin@gmail.com</a>
-                <a href="https://github.com/TheRealPlanZ">GitHub</a>
-                <a href="https://twitter.com/TheRealPlanZ">Twitter</a>
-                <a href="https://soundcloud.com/therealplanz">Soundcloud</a>
-            </div>
-        </section>
+      <!-- Contact Me Section -->
+      <section class="contact-me" id="contact-me">
+        <h2>Contact Me</h2>
+        <div>
+          <a href="#">555-555-5555</a>
+          <a href="mailto: zacklevin@gmail.com">zacklevin@gmail.com</a>
+          <a href="https://github.com/TheRealPlanZ">GitHub</a>
+          <a href="https://twitter.com/TheRealPlanZ">Twitter</a>
+          <a href="https://soundcloud.com/therealplanz">Soundcloud</a>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
