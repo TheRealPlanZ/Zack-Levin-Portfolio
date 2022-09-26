@@ -90,18 +90,26 @@ body {
   text-align: right;
 }
 
-.project-card div {
+.large-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: right; 
+}
+.project-card {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: flex-end;
-  float: right;
+  align-items: center;
+  float:inline-start;
 }
 .project-card-main {
     border: 3px solid black;
     display: block;
-    height: 200px;
+    height: 300px;
     width: 400px;
+    padding: 10px;
 }
 
 .project-card-sub {
@@ -109,7 +117,9 @@ body {
     display: block;
     height: 100px;
     width: 200px;
+    padding: 10px;
 }
+
 
 .contact-me {
   display: flex;
