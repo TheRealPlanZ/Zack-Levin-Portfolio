@@ -121,7 +121,7 @@ body {
   height: 300px;
   width: 382px;
   position: relative;
-  background-image: url(/Assets/Images/digital-marketing-meeting.jpg);
+  background-image: url(../Images/digital-marketing-meeting.jpg);
   background-size: 100%;
 }
 
@@ -144,7 +144,7 @@ body {
   height: 150px;
   width: 180px;
   margin-left: 10px;
-  background-image: url(/Assets/Images/remix-WWWB-01.png);
+  background-image: url(../Images/remix-WWWB-01.png);
   background-position: 20%;
   background-size: 100%;
 }
