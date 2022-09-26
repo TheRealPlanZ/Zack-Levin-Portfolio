@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Portfolio.pdf](https://github.com/TheRealPlanZ/Zack-Levin-Portfolio/files/9650247/Portfolio.pdf)
+[ZackLevinPortfolio.pdf](https://github.com/TheRealPlanZ/Zack-Levin-Portfolio/files/9650247/Portfolio.pdf)
 
 This portfolio is built to showcase what Zack Levin, as a web developer, is able to accomplish using CSS and HTML.
 
